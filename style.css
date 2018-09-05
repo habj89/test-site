@@ -20,7 +20,6 @@ body {
     background-color: aqua;
     width: 100%;
     height: 70px;
-     
 }
 
 #menu-bar-content {
@@ -43,18 +42,40 @@ a:hover {
     color: red;
 }
 
+#overskrift {
+    text-align: center;
+}
+
+#bilde {
+    display: block;
+    text-align: center;
+}
+
+#bildefil {
+    display: inline;
+
+}
+#task-start {
+    text-align: center;
+}
+#tasks {
+    width: 100%;
+    text-align: center;
+
+}
 .oppgaverull {
-  height: 100px;
-  column-count: 2;
-  list-style: none;
-  background-color: aqua;
-  width: 350px;
-  text-align: center;
+    display: inline-block;
+    height: 100px;
+    column-count: 2;
+    list-style: none;
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
 }
 
 .oppggaver {
     margin: 1px;
 }
- h1 {
+h4 {
     font-family: 'Shadows Into Light', cursive;
- }
+}
