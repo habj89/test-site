@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    float: left;
+}
+
+.bannerC {
+    background-image: url(/Pictures/topp-comtinue.jpg);
+    background-repeat: repeat-x;
+}
+
+.clear-float {
+    clear: both;
+}
+
+#menu-bar-container {
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+     
+}
+
+#menu-bar-content {
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    word-spacing: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+    
+
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.oppgaverull {
+  height: 100px;
+  column-count: 2;
+  list-style: none;
+  background-color: aqua;
+  width: 350px;
+  text-align: center;
+}
+
+.oppggaver {
+    margin: 1px;
+}
+ h1 {
+    font-family: 'Shadows Into Light', cursive;
+ }
